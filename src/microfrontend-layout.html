@@ -20,11 +20,19 @@
   <main>
     <route default>
       <div class="flex">
-        <div>
-          <application name="@mf-poke/quick-view"></application>
+        <div class="w-full">
+          <application
+            name="@mf-poke/search"
+            error="errorParcel"
+            loader="loadingParcel"
+          ></application>
         </div>
-        <div>
-          <application name="@mf-poke/search"></application>
+        <div class="w-full">
+          <application
+            name="@mf-poke/quick-view"
+            error="errorParcel"
+            loader="loadingParcel"
+          ></application>
         </div>
       </div>
     </route>
